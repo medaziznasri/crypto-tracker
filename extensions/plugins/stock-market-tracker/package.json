@@ -1,0 +1,32 @@
+{
+  "name": "crypto-market-plugin",
+  "version": "1.0.0",
+  "description": "A Hexabot plugin to fetch real-time cryptocurrency prices from CoinGecko API.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/main.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "nestjs": "^10.0.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.9.1",
+    "@nestjs/testing": "^10.0.0"
+  },
+  "author": "med aziz nasri",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hexastack/crypto-market-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/hexastack/crypto-market-plugin/issues"
+  },
+  "homepage": "https://github.com/hexastack/crypto-market-plugin"
+}
